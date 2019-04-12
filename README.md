@@ -1,2 +1,2 @@
 # javascript
-começando do zero
+Onde posso chegar apenas com tutoriais na internet ?
