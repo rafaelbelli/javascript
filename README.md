@@ -1,2 +1,2 @@
-# Novato em linguagem de programação
+# Novato :D
 Onde posso chegar apenas com tutoriais na internet ?
