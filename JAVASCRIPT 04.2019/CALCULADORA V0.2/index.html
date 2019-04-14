@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Calculadora em JAVASCRIPT</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css">
+
+	</head>
+	<body>
+		<script type="text/javascript" src="codigo.js">
+		</script>
+		<div id="calculatorArea" align="center" class="container">
+			<div id="numPad" align="center"><br>
+				<input id="showResult" readonly></div><br>
+				<input id="resultVisor" readonly><br><br>
+				<button id="number1" value="1" onclick="startCalc(this.value)" class="btn btn-dark">1</button>
+				<button id="number2" value="2" onclick="startCalc(this.value)" class="btn btn-dark">2</button>
+				<button id="number3" value="3" onclick="startCalc(this.value)" class="btn btn-dark">3</button>
+				<button id="doSoma" value="soma" onclick="startOperator(this.value)" class="btn btn-dark">+</button><br><br>
+				<button id="number4" value="4" onclick="startCalc(this.value)" class="btn btn-dark">4</button>
+				<button id="number5" value="5" onclick="startCalc(this.value)" class="btn btn-dark">5</button>
+				<button id="number6" value="6" onclick="startCalc(this.value)" class="btn btn-dark">6</button>
+				<button id="doSoma" value="subtracao" onclick="startOperator(this.value)" class="btn btn-dark">-</button><br><br>
+				<button id="number7" value="7" onclick="startCalc(this.value)" class="btn btn-dark">7</button>
+				<button id="number8" value="8" onclick="startCalc(this.value)" class="btn btn-dark">8</button>
+				<button id="number9" value="9" onclick="startCalc(this.value)" class="btn btn-dark">9</button>
+				<button id="doSoma" value="multiplicacao" onclick="startOperator(this.value)" class="btn btn-dark">x</button><br><br>
+				<button id="numberDot" value="." onclick="startCalc(this.value)" class="btn btn-dark">.</button>
+				<button id="number0" value="0" onclick="startCalc(this.value)" class="btn btn-dark">0</button>
+				<button id="doSoma" value="divisao" onclick="startOperator(this.value)" class="btn btn-dark">/</button><br><br><br>
+				<button id="sendCalc" onclick="stopCalc()" class="btn btn-success">Enter</button>
+				<button id="cleanVisor" onclick="abracadabra()" class="btn btn-danger">Limpar</button><br><br>
+				<label>Desenvolvido por Rafael B. 2019</label>
+			</div>
+		</div>
+	</body>
+</html>
